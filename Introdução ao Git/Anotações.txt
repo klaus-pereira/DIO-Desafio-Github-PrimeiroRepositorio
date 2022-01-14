@@ -3,6 +3,8 @@ git config --global user.email fulano@email.com
 git config --global core.editor nano
 git config --global merge.tool vimdiff
 git config --list
+git add .
+git add -A
 git add [arquivo]
 git commit -m “Alguma mensagem”
 git status
@@ -11,3 +13,4 @@ git log
 ssh-keygen -t ed25519 -C "klaus.fred@gmail.com"
 eval "$(ssh-agent -s)"
 ssh -T git@github.com
+git push origin main
